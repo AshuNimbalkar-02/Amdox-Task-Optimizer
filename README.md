@@ -98,8 +98,7 @@ src/
 ## 📄 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
-## 📧 Contact
-Project Support: [support@amdox.in](mailto:support@amdox.in)
+
 
 ---
-*Created with ❤️ for the Amdox Internship Project*
+

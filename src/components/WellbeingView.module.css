@@ -1,0 +1,152 @@
+.container {
+  padding: 2rem;
+  margin-left: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: var(--text-secondary);
+}
+
+.scoreSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.scoreCard {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scoreHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.heartIcon {
+  color: var(--danger);
+}
+
+.scoreValue {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.scoreValue span {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.metricItem {
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: var(--primary);
+}
+
+.metricContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.metricLabel {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.metricVal {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.recommendations h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.activityGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activityCard {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  gap: 1.5rem;
+}
+
+.actIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--surface-glass-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.actInfo {
+  flex: 1;
+}
+
+.actHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.actHeader h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.actInfo p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.startBtn {
+  padding: 0.6rem 1.25rem;
+  background: var(--surface-glass-hover);
+  border: 1px solid var(--surface-glass-border);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: var(--transition-fast);
+}
+
+.startBtn:hover {
+  background: var(--primary);
+  color: white;
+}
